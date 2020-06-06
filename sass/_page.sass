@@ -6,6 +6,11 @@ p
 a
     text-decoratin: none
     color: #000000
+li
+    list-style-type: none
+ul
+    margin-left: 0
+    padding-left: 0
 // header
 .lang_bg
     background-color: #DFE7EA
@@ -39,6 +44,41 @@ a
     &__text
         font-size: 20px
         color: #52636C
+.li
+    &__base
+        background: #F8F8F8
+        border: 1px solid rgba(0, 0, 0, 0.14)
+        border-radius: 15px
+        font-size: 23px
+        letter-spacing: 0.15em
+        color: rgba(19, 27, 37, 0.45)
+    &__active
+        color: rgba(19, 27, 37, 0.78)
+        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.11)
+    &__item
+        cursor: pointer
+    &__text
+        border: 1px solid #DBDBDB
+        box-sizing: border-box
+        border-radius: 10px
+        display: flex
+        flex-wrap: wrap
+        justify-content: flex-start
+        &_none
+            display: none
+.squard
+    background-image: url(../img/yes.png)
+    background-repeat: no-repeat
+    background-position: center center
+    height: 306px
+    border: 1px solid rgba(0, 0, 0, 0.08)
+    box-shadow: inset 0px 4px 15px rgba(0, 0, 0, 0.06)
+    margin-left: 68px
+    margin-top: 30px
+    &__text
+        font-weight: 300
+        font-size: 18px
+        line-height: 135%
 //footer
 .footer
     padding: 23px 0
