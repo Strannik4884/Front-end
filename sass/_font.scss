@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url('../font/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@mixin M_medium {
+    font-family: 'Roboto', sans-serif;
+}

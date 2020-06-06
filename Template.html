@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/fm.revealator.jquery.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Template</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar_padding navbar navbar-expand-lg">
+            <a class="navbar-brand" href="https://rosatom.ru/">
+                <img src="img/rosatom.png" class="image_rosatom" alt="rosatom">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav justify-content-end col-6 col-xl-5" role="navigation">
+                     <li class="nav-item dropdown dropdown_item">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Должности</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Редактор</a>
+                            <a class="dropdown-item" href="#">Менеджер</a>
+                        </div>
+                     </li>
+                    <li class="lang_bg nav-item col-1 p-0 d-flex align-items-center justify-content-center">
+                        <a href="#" class="d-flex justify-content-center align-itmes-center">
+                            <p class="font_default">RU</p>
+                            <img class="lang_trinagle" src="img/caret-down-solid.svg" width="15" height="15" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item col-1 p-0 d-flex justify-content-center align-items-center">
+                        <a href="#">
+                            <img src="img/search-solid.svg" width="20" height="20" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Main -->
+    <div class="container_fix">
+        <div class="block-title d-flex">
+            <div class="col-1"></div>
+            <div class="d-flex flex-column justify-content-end">
+                <h1 class="block-title__title revealator-slideleft revealator-delay4 revealator-once revealator-below">
+                    Охранник</h1>
+            </div>
+        </div>
+        <div class="main d-flex flex-column justify-content-center align-items-center">
+            <p class="main__pretitle mt-4 mb-4 col-lg-7 col-11">
+                Информация о должности, если она есть. Охранник должен обеспечивать охрану организации. Следить за
+                порядком в ней. Взаимодействует с начальником охраны и секретарем ресепшен по мере необходимости.
+            </p>
+            <div
+                class="main__title d-flex flex-column align-items-center revealator-slideup revealator-delay2 revealator-once">
+                <h2 class="main__position">Информация о должности</h2>
+                <p class="main__text mb-3">Всю информацию о данной должности можно узнать здесь.</p>
+            </div>
+            <div class="main__content">
+                <!-- Тут должен быть контент -->
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer d-flex justify-content-around align-items-center">
+        <div class="col-11 d-flex justify-content-around align-items-center">
+            <p>© 2008–2020. Все права защищены. <a href="https://rosatom.ru/about/contact-info/"
+                    class="footer__link">Государственная
+                    корпорация по атомной энергии «Росатом»</a><br>
+                При использовании материалов ссылка на сайт <a href="https://rosatom.ru/"
+                    class="footer__link">www.rosatom.ru</a> обязательна</p>
+            <p><a href="mailto:0707@rosatom.ru" class="footer__link">Сообщить о коррупции:</a> 800-100-0707</p>
+            <p><a href="mailto:press@rosatom.ru" class="footer__link">Данный одностраничник основан на оригинальгом
+                    документе</a></p>
+        </div>
+    </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+</script>
+<script src="js/fm.revealator.jquery.min.js"></script>
+</html>
